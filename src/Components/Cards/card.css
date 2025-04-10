@@ -1,0 +1,125 @@
+.tours_section .img-box{
+    padding: 0px 12px;
+}
+
+.tours_section .img-box .card{
+    border: none;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.tours_section .img-box a{
+    padding: 0;
+}
+
+.tours_section .img-box .card img{
+    transition: all 0.5s ease 0s;
+    display: block;
+    filter: brightness(0.8);
+}
+
+.tours_section .img-box .card .card-title{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    font-size: 16px;
+    color: var(--white);
+    font-weight: bold;
+    width: 100%;
+}
+
+.tours_section .img-box .card .tours{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    color: var(--primaryClr);
+    background: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 6px 15px;
+    border-radius: 15px;
+    transform: translateX(120%);
+    transition: 0.2s ease-in;
+}
+
+.tours_section .img-box .card:hover{
+    transition: 0.2s ease-in;
+}
+
+.tours_section .img-box .card:hover img{
+    filter: brightness(1);
+    transform: scale(1.1);
+}
+
+.tours_section .img-box .card:hover .tours{
+    transform: translateX(0);
+}
+
+.slick_slider .slick-arrow{
+    z-index: 100;
+    position: absolute;
+    top: 45%;
+    width: 55px;
+    height: 55px;
+    display: block;
+    border-radius: 100%;
+    transition: box-shadow 0.3ms;
+    background: var(--primaryClr);
+    opacity: 1;
+}
+
+.slick_slider .slick-arrow:hover{
+    box-shadow: 0 0 0 1rem rgba(255,255,255,0.267);
+}
+
+.slick_slider .slick-prev::after,
+.slick_slider .slick-next::after,
+.slick_slider .slick-prev::before,
+.slick_slider .slick-next::before{
+    content: '';
+    position: absolute;
+    left: 43%;
+    background: var(--white);
+    width: 0.4rem;
+    max-width: 3px;
+    border-radius: 3px;
+    height: 34%;
+}
+
+.slick_slider .slick-prev{
+    left: 40px;
+}
+
+.slick_slider .slick-prev::before{
+    transform: rotate(45deg);
+    top: 24%;
+}
+
+.slick_slider .slick-prev::after{
+    transform: rotate(-45deg);
+    bottom: 24%;
+}
+
+.slick_slider .slick-next{
+    right: 40px;
+}
+
+.slick_slider .slick-next::before{
+    left: auto;
+    right: 43%;
+    transform: rotate(-45deg);
+    top: 24%;
+}
+
+.slick_slider .slick-next::after{
+    left: auto;
+    right: 43%;
+    transform: rotate(45deg);
+    bottom: 24%;
+}
+
+.slick_slider .slick-prev span,
+.slick_slider .slick-next span{
+    display: none;
+}

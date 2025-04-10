@@ -1,0 +1,66 @@
+.box-search-advance .dropdown #dropdown-custom-component{
+    width: 100%;
+    background: none;
+    font-family: var(--fontFamily1);
+    text-align: left;
+    padding: 5px 40px 5px 5px;
+    padding-left: 22px !important;
+    border: none;
+    font-size: var(--textFont);
+    position: relative;
+    color: var(--black);
+}
+
+.box-search-advance .dropdown #dropdown-custom-component span{
+    font-weight: bold;    
+}
+
+.box-search-advance .dropdown #dropdown-custom-component:focus{
+    outline: unset;
+    border: none;
+    box-shadow: none;
+}
+
+.box-search-advance .dropdown .dropdown-custom{
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+
+.box-search-advance .dropdown .dropdown-custom::before{
+    position: absolute;
+    content: "\f52a";
+    left: 0px;
+    bottom: 6px;
+    font-size: var(--bodyText);
+    color: var(--textClr);
+} 
+
+.box-search-advance .dropdown .dropdown-custom::after{
+    border: none;
+    position: absolute;
+    content: "\f282";
+    right: 20px;
+    bottom: 9px;
+    font-size: var(--bodyText);
+    color: var(--textClr);
+} 
+
+.box-search-advance .dropdown .dropdown-menu{
+    width: 100%;
+    padding: 10px;
+    min-width: 12rem;
+}
+
+.box-search-advance .dropdown .dropdown-menu .list-unstyled a{
+    padding: 10px;
+    font-weight: 500;
+    transition: all 0.4s ease-out;
+}
+
+.box-search-advance .dropdown .dropdown-menu .list-unstyled a:hover{
+    font-weight: bold;
+}
