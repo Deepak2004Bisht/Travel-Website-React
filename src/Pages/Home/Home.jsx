@@ -30,9 +30,8 @@ export default function Home() {
         settings: {
           slidesToShow: 4,
           slidesToScroll: 1,
-          infinite: false,
           dots: true,
-          autoplat: true,
+          autoplay: true,
         },
       },
       {
@@ -40,8 +39,8 @@ export default function Home() {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          infinite: false,
           dots: true,
+          autoplay: true,
         },
       },
       {
@@ -52,6 +51,7 @@ export default function Home() {
           autoplay: true,
           prevArrow: false,
           nextArrow: false,
+          dots: true,
         },
       },
       {
@@ -59,6 +59,7 @@ export default function Home() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: true,
         },
       },
     ],

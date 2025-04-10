@@ -99,7 +99,17 @@ header .navbar .offcanvas-body .dropdown-menu .dropdown-item:hover{
 /* ---------------
     ------------- Responsive Media Queries -------------------- 
 ---------------------*/
+@media(max-width: 1199px){
+    header{
+        padding: 12px 15px;
+    }
+}
+
+
 @media(max-width: 991px){
+    /* header{
+        padding: 12px 15px;
+    } */
     header .navbar .toggle_btn{
         font-size: var(--bodyText);
         color: var(--white);

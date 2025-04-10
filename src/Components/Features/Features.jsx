@@ -30,7 +30,6 @@ export default function Features() {
         settings: {
           slidesToShow: 4,
           slidesToScroll: 1,
-          infinite: false,
           dots: true,
         },
       },
@@ -39,8 +38,8 @@ export default function Features() {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          infinite: false,
           dots: true,
+          autoplay: true,
         },
       },
       {
@@ -51,6 +50,7 @@ export default function Features() {
           autoplay: true,
           prevArrow: false,
           nextArrow: false,
+          dots: true,
         },
       },
       {
@@ -58,6 +58,8 @@ export default function Features() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          autoplay: true,
+          dots: true,
         },
       },
     ],
@@ -81,7 +83,7 @@ export default function Features() {
     {
       id: 2,
       image: feature3,
-      title: "Exploring made easyt",
+      title: "Exploring made easy",
       des: "Book last minute, skip lines &amp; get free cancellation for easier exploring.",
     },
 
