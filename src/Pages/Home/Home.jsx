@@ -12,6 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
 import './home.css';
 import { destinationsData } from '../../utils/data';
 import Cards from '../../Components/Cards/Cards';
+import PopularPlace from '../../Components/PopularPlace/PopularPlace';
 
 export default function Home() {
 
@@ -75,8 +76,7 @@ export default function Home() {
       <Features />
 
 
-      {/* Tour Section Start */}
-
+      {/* Tour Section Start :- Top Destination For Your Next Vacation*/}
       <section className="tours_section slick_slider">
         <Container>
           <Row>
@@ -100,8 +100,46 @@ export default function Home() {
           </Row>
         </Container>
       </section>
+      {/* Tour Section End */}
 
-      {/* Tour Section Start */}
+
+      <PopularPlace/>
+
+
+      {/* Call To Action  */}
+      <section className="call_us">
+        <Container>
+          <Row className="align-items-center">
+            <Col md={8}>
+              <h5 className='title'>CALL TO ACTION</h5>
+              <h2 className='heading'>READY FOR UNFORGATABLE TRAVEL. REMEMBER US!</h2>
+              <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            </Col>
+
+            <Col md={4} className='text-center mt-3 mt-md-0'>
+              <a href="tel:8810473494" className='secondary_btn bounce' rel='no'>Contact Us!</a>
+            </Col>
+          </Row>
+        </Container>
+
+        <div className="overlay"></div>
+      </section>
+      {/* Call TO Action End */}
+
+
+      {/* Photo Gallery */}
+      <section className="tours_section slick_slider">
+        <Container>
+          <Row>
+            <Col md="12">
+              <div className="main_heading">
+                <h1>Photo Gallery</h1>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      {/* Photo Gallery End */}
 
     </>
   );

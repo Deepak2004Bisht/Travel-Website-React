@@ -72,8 +72,8 @@
     position: absolute;
     left: 43%;
     background: var(--white);
-    width: 0.4rem;
-    max-width: 3px;
+    width: 1.4rem;
+    max-width: 6px;
     border-radius: 3px;
     height: 34%;
 }

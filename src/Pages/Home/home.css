@@ -3,3 +3,99 @@
     background-color: var(--secondaryClr);
 }
 
+.call_us{
+    background: url('../../assets/images/slider/1.jpg');
+    padding: 88px 0px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: 1;
+    position: relative;
+}
+
+.call_us .title{
+    color: var(--primaryClr);
+    font-style: italic;
+}
+
+.call_us .heading{
+    font-size: 50px;
+    color: var(--white);
+    line-height: 58px;
+    font-weight: bold;
+    padding: 5px 0 20px 0;
+}
+
+.call_us .text{
+    font-size: var(--subTitle);
+    color: var(--white);
+    line-height: 30px;
+}
+
+.call_us .overlay {
+    background: #00000054;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.call_us .secondary_btn{
+    background: none;
+    font-size: 18px;
+    color: var(--white);
+    display: inline-block;
+    border: 2px solid var(--white);
+    padding: 12px 8px;
+    text-decoration: none;
+}
+
+.call_us .bounce{
+    animation: bounce 2s infinite;
+}
+
+
+@keyframes bounce{
+    0%,20%,50%,80%,100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    60%{
+        transform: translateY(-15px);
+    }
+}
+
+
+
+
+
+
+
+
+/* ---------------
+    ------------- Responsive Media Queries -------------------- 
+---------------------*/
+
+@media (max-width: 1199px){
+    .call_us{
+        overflow: hidden;
+    }
+    .call_us .heading{
+        font-size: 28px;
+        line-height: 38px;
+        padding: 5px 0 10px 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .call_us{
+        overflow: hidden;
+    }
+    .call_us .heading{
+        font-size: 22px;
+    }
+}
