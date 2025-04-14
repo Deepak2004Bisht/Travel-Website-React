@@ -14,6 +14,8 @@ import { destinationsData } from '../../utils/data';
 import Cards from '../../Components/Cards/Cards';
 import PopularPlace from '../../Components/PopularPlace/PopularPlace';
 
+import Gallery from '../../Components/Gallery/Gallery';
+
 export default function Home() {
 
   // Slick Slider Start
@@ -127,14 +129,23 @@ export default function Home() {
       {/* Call TO Action End */}
 
 
+
+
+
       {/* Photo Gallery */}
-      <section className="tours_section slick_slider">
+      <section className="gallery">
         <Container>
           <Row>
             <Col md="12">
               <div className="main_heading">
                 <h1>Photo Gallery</h1>
               </div>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col md="12">
+              <Gallery />
             </Col>
           </Row>
         </Container>

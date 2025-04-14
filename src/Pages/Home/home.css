@@ -71,7 +71,27 @@
 
 
 
+.gallery{
+    background-color: var(--secondaryClr);
+    overflow: hidden;
+    padding: 50px 0;
+}
 
+.photo_gallery{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+}
+
+.photo_gallery img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
 
 
 
