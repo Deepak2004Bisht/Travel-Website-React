@@ -13,6 +13,7 @@ export default function Footer() {
           <Col md='3' sm='12' className='quick_link mt-3 mt-md-0'></Col>
           <Col md='3' sm='12' className='quick_link mt-3 mt-md-0'></Col>
         </Row>
+        
       </Container>
     </footer>
   );
