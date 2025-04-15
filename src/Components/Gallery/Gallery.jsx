@@ -18,22 +18,22 @@ export default function Gallery() {
             sub: "Gift Habeshaw"
         },
         {
+            src: GalleryImg6,
+            sub: "Harry Cunningham"
+        },
+        {
+            src: GalleryImg7,
+            sub: "Verne Ho"
+        },
+        {
             src: GalleryImg3,
             desc: "Blonde woman wearing sunglasses smiling at the camera ",
             sub: "Dmitriy Frantsev"
         },
         {
-            src: GalleryImg6,
-            sub: "Harry Cunningham"
-        },
-        {
             src: GalleryImg4,
             desc: "Jaipur , Rajasthan India",
             sub: "Liam Baldock"
-        },
-        {
-            src: GalleryImg7,
-            sub: "Verne Ho"
         },
         {
             src: GalleryImg6,
