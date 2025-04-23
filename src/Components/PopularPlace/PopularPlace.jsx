@@ -6,7 +6,7 @@ import {popularsData} from '../../utils/data';
 
 export default function PopularPlace() {
   return (
-    <section className="popular">
+    <section className="popular py-5">
       <Container>
         <Row>
           <Col md="12">

@@ -184,3 +184,35 @@ export const popularsData = [
     reviews: 22,
   },
 ];
+
+
+// Location Data
+export const location = [
+  "Bali",
+  "Tokyo",
+  "Bangkok",
+  "Cancun",
+  "Nha Trang",
+  "Phuket",
+  "Malaysia",
+  "Paris",
+];
+
+export const Categories = [
+  "History",
+  "Calture",
+  "Netural",
+  "Urban Tour",
+  "Relax",
+];
+
+export const Duration = ["1-3 Days", "3-5 Days", "5-7 Days", "7-10 Day"];
+export const PriceRange = [
+  "$ 0 - $50",
+  "$ 50 - $ 100",
+  "$ 100 - $ 200",
+  "$ 200 - ₹ $ 400",
+  "$ 400 - ₹ $ 800",
+];
+
+export const Rating = ["⭐", "⭐⭐", "⭐⭐⭐", "⭐⭐⭐⭐", "⭐⭐⭐⭐⭐"];

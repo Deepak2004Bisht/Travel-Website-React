@@ -1,0 +1,58 @@
+.side_bar{
+    padding: 20px 30px 30px;
+    border: 1px solid #e7e6e6;
+}
+
+.filter_box .accordion-item{
+    border-bottom: 1px solid #e7e6e6 !important;
+}
+
+.filter_box .accordion:last-child .accordion-item{
+    border: none !important;
+}
+
+.filter_box .accordion-item,
+.filter_box .accordion-item button{
+    background: none;
+    border: none;
+    border-radius: 0;
+}
+
+.filter_box .accordion-item button{
+    border: none !important;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 0;
+    box-shadow: none !important;
+}
+
+.filter_box .accordion-item button:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.filter_box .accordion-item .accordion-body{
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.filter_box .accordion-item .accordion-body .form-check{
+    margin-bottom: 10px;
+}
+
+.filter_box .accordion-item .accordion-body .form-check-input{
+    width: 1.2em;
+    height: 1.2em;
+
+}
+
+.filter_box .accordion-item .accordion-body .form-check-label{
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+.filter{
+    position: sticky;
+    top: 55px;
+}

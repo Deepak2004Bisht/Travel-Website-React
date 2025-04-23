@@ -46,6 +46,10 @@ header .navbar .navbar-brand a{
     text-decoration: none;
 }
 
+header .navbar .offcanvas-body .dropdown-menu a{
+    color: black !important;
+}
+
 header .navbar .offcanvas-body a{
     font-size: var(--bodyText);
     color: var(--white) !important;

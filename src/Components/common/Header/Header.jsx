@@ -58,17 +58,17 @@ export default function Header() {
 
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <NavLink className='nav-link' to='/'>HOME</NavLink>
-                  <NavLink className='nav-link' to='/'>ABOUT US</NavLink>
-                  <NavLink className='nav-link' to='/'>TOURS</NavLink>
+                  <NavLink className='nav-link' href='/'>HOME</NavLink>
+                  <NavLink className='nav-link' href='/about-us'>ABOUT US</NavLink>
+                  <NavLink className='nav-link' href='/tours'>TOURS</NavLink>
                  
                   <NavDropdown title="DESTINATION" id={`offcanvasNavbarDropdown-expand-lg`}>
-                    <NavDropdown.Item href="#action3">SPAN TOURS</NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">ITALY TOURS</NavDropdown.Item>
-                    <NavDropdown.Item href="#action5">FRANCE TOURS</NavDropdown.Item>
+                    <NavLink className="nav-link text-dark" href="/destination">
+                      SPAIN TOURS
+                    </NavLink>
                   </NavDropdown>
-                  <NavLink className='nav-link' to='/'>GALLERY</NavLink>
-                  <NavLink className='nav-link' to='/'>CONTACT</NavLink>
+                  <NavLink className='nav-link' href='/gallery'>GALLERY</NavLink>
+                  <NavLink className='nav-link' href='/contact-us'>CONTACT</NavLink>
                 </Nav>
                
               </Offcanvas.Body>

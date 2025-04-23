@@ -83,3 +83,9 @@ table {
 	font-family: var(--fontFamily);
 	font-weight: bold;
 }
+
+.body-text, p {
+    color: var(--textClr);
+    font-size: var(--bodyText);
+    line-height: 24px;
+}

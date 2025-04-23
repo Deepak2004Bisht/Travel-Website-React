@@ -86,12 +86,12 @@ export default function Footer() {
               </div>
 
               <div className="d-flex align-items-top my-2">
-                <i className="bi bi-geo-alt me-3"></i>
+                <i className="bi bi-geo-alt me-1"></i>
                 <a target="_blank" rel="noreferrer" href="mailto:deepakbisht2777@gmail.com" className="d-block">deepakbisht2777@gmail.com</a>
               </div>
 
               <div className="d-flex align-items-top ">
-                <i className="bi bi-telephone me-3"></i>
+                <i className="bi bi-telephone me-1"></i>
                 <a target="_blank" rel="noreferrer" href="tel:8810473494" className="d-block" >8810473494</a>
               </div>
             </Col>
@@ -106,7 +106,7 @@ export default function Footer() {
       </footer>
 
       <div id="back-top" onClick={scrollTop} className={visible ? "active" : ""}>
-        <i class="bi bi-arrow-up"></i>
+        <i className="bi bi-arrow-up"></i>
       </div>
     </>
   );
