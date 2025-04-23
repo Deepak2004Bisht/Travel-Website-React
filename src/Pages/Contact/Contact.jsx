@@ -1,14 +1,6 @@
 import React from "react";
 import Breadcrumbs from "../../Components/Breadcrumbs/Breadcrumbs";
-import {
-  Container,
-  Row,
-  Col,
-  Card,
-  ListGroup,
-  Form,
-  FloatingLabel,
-} from "react-bootstrap";
+import {Container,Row, Col, Card, ListGroup, Form, FloatingLabel} from "react-bootstrap";
 import image from "../../assets/images/new/contact-us.png";
 
 export default function Contact() {
