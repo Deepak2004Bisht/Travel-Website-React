@@ -18,8 +18,8 @@ A modern, responsive travel website built using **React** and **Bootstrap**. Thi
 - **Bootstrap 5** – For responsive styling and layout.
 - **HTML5 & CSS3** – For structure and design.
 
-<h2>Feel free to visit the E-commerce website</h2>
-<h3> E-commerce website link here:-
+<h2>Feel free to visit the Travel website</h2>
+<h3> Travel website link here:-
 👉<a href="https://travelvisitwebsite.netlify.app/" target="_blank">Link</a>
 </h3>
 
