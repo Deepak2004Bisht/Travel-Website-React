@@ -1,10 +1,16 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Breadcrumbs from "../../Components/Breadcrumbs/Breadcrumbs";
 import { Container, Row, Col } from "react-bootstrap";
 import { destinationsData } from "../../utils/data";
 import Cards from "../../Components/Cards/Cards";
 
 export default function Destination() {
+
+  useEffect(()=>{
+    document.title ="Destinations"
+    window.scroll(0, 0)
+  },[])
+
   return (
     <>
       <Breadcrumbs title="Destinations" pagename="Destinations" />

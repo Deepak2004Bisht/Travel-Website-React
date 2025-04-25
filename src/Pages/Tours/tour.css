@@ -1,3 +1,6 @@
+@import "react-image-gallery/styles/css/image-gallery.css";
+
+
 .side_bar{
     padding: 20px 30px 30px;
     border: 1px solid #e7e6e6;
@@ -55,4 +58,89 @@
 .filter{
     position: sticky;
     top: 55px;
+}
+
+
+
+/* Tour Details */
+.tour_details .image-gallery-thumbnail{
+    width: 12.3%;
+}
+
+.tour_details .image-gallery-thumbnail:hover,
+.tour_details .image-gallery-thumbnail.active{
+    border-color: var(--primaryClr);
+}
+
+.tour_details .nav_bars{
+    background-color: #f14b361a;
+    padding: 8px;
+}
+
+.tour_details .nav_bars .nav-link{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+    color: black;
+}
+
+.tour_details .nav_bars .nav-item{
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color: var(--primaryClr);
+}
+
+.tour_details .list-group-item{
+    padding: 16px 0px;
+    border: none;
+    font-size: var(--bodyText);
+    background: unset;
+    line-height: 24px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.tour_details .list-group-item strong{
+    font-weight: bold;
+}
+
+.tour_details .accordion,
+.tour_details .accordion-item{
+    border: none;
+}
+
+.tour_details .accordion-header button{
+    background: #f5f5f6;
+    border: none;
+    border-radius: 8px;
+}
+
+.tour_details .accordion-header button:focus{
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.tour_details .card-info{
+    background: #f5f5f6;
+    border: none;
+}
+
+.tour_details .card-info i{
+    color: var(--primaryClr);
+}
+
+
+
+/* ---------------
+    ------------- Responsive Media Queries -------------------- 
+---------------------*/
+@media (max-width: 575px){
+    .tour_details .nav_bars{
+        flex-direction: column !important;
+    }
 }

@@ -3,7 +3,6 @@ import "./card.css";
 import { Card ,Stack} from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
-
 export default function PopularCard({val}) {
   return (
     <>

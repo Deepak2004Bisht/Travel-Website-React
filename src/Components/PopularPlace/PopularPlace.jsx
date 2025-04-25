@@ -1,8 +1,8 @@
 import React from "react";
 import "./popularplace.css";
 import { Container, Row, Col, Card, Stack } from "react-bootstrap";
-// import tour4 from "../../assets/images/tour/Tokyo.png";
 import {popularsData} from '../../utils/data';
+import { NavLink } from 'react-router-dom';
 
 export default function PopularPlace() {
   return (
@@ -33,7 +33,7 @@ export default function PopularPlace() {
                   <span className="text">{val.location}</span>
                 </Card.Text>
 
-                <Card.Title>{val.title}</Card.Title>
+                <Card.Title><NavLink className="body-text text-dark text-decoration-none" to="/tour-details"> {val.title} </NavLink></Card.Title>
 
                 <p className="review">
                   <span>

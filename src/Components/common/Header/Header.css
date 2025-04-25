@@ -51,7 +51,7 @@ header .navbar .offcanvas-body .dropdown-menu a{
 }
 
 header .navbar .offcanvas-body a{
-    font-size: var(--bodyText);
+    font-size: 14px;
     color: var(--white) !important;
     line-height: 150%;
     font-family: var(--fontFamily1);

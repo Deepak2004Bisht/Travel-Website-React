@@ -33,6 +33,13 @@ export default function Header() {
     }
   }
 
+  // Close menu on scroll
+  const closeMenu=()=>{
+    if(window.innerWidth <= 991){
+      setOpen(false);
+    }
+  }
+
 
   return (
     <header className="header-section">
@@ -59,24 +66,24 @@ export default function Header() {
 
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <NavLink className='nav-link' to='/'>HOME</NavLink>
-                  <NavLink className='nav-link' to='/about-us'>ABOUT US</NavLink>
-                  <NavLink className='nav-link' to='/tours'>TOURS</NavLink>
+                  <NavLink className='nav-link' to='/' onClick={closeMenu}>HOME</NavLink>
+                  <NavLink className='nav-link' to='/about-us' onClick={closeMenu}>ABOUT US</NavLink>
+                  <NavLink className='nav-link' to='/tours' onClick={closeMenu}>TOURS</NavLink>
                  
                   <NavDropdown title="DESTINATION" id={`offcanvasNavbarDropdown-expand-lg`}>
-                    <NavLink className="nav-link text-dark" to="/destination">
+                    <NavLink className="nav-link text-dark" to="/destination" onClick={closeMenu}>
                       SPAIN TOURS
                     </NavLink>
                   </NavDropdown>
-                  <NavLink className='nav-link' to='/gallery'>GALLERY</NavLink>
-                  <NavLink className='nav-link' to='/contact-us'>CONTACT</NavLink>
+                  <NavLink className='nav-link' to='/gallery' onClick={closeMenu}>GALLERY</NavLink>
+                  <NavLink className='nav-link' to='/contact-us' onClick={closeMenu}>CONTACT</NavLink>
                 </Nav>
                
               </Offcanvas.Body>
             </Navbar.Offcanvas>
 
             <div className='ms-md-4 ms-2'>
-              <NavLink className='primaryBtn d-none d-sm-inline-block'>Book Now</NavLink>
+              <NavLink className='primaryBtn d-none d-sm-inline-block' to='/booking'>Book Now</NavLink>
               <li className='d-inline-block d-lg-none ms-3 toggle_btn'>
                 <i className={open ? 'bi bi-x-lg': 'bi bi-list'} onClick={toggleMenu}></i>
               </li>
